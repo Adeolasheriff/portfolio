@@ -2,10 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/home';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from './components/header';
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './pages/contact';
-// import Portfolio from './pages/portfolio';
+
 
 function App() {
   return (

@@ -1,10 +1,7 @@
 import React from 'react'
-import Header from '../header'
 
-export default function Portfolio() {
+export default function portfolio() {
   return (
-    <div>
-      <Header/>
-    </div>
+    <div>portfolio</div>
   )
 }
