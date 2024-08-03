@@ -71,7 +71,7 @@ export default function Works(props) {
         <img src="images/hii.PNG" alt="" className='imm'  />
         <div class="overlay">
            <h3>Quiz app</h3>
-           <Link to={''}></Link>
+           <Link to={'https://github.com/Adeolasheriff/quizapp'}>first qiuz app</Link>
         </div>
      </div>
     </div>
