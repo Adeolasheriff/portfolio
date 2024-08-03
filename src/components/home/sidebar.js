@@ -1,111 +1,86 @@
-import { Sidebar, Nav, NavItem, } from "@asphalt-react/sidebar"
-import { Check, } from "../../icons/icons";
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Checkk,Git,Instagram,Linkedin,Net,Point} from '../../icons/icons';
 
 
-function SidebarLinear () {
+
+function Sidebar() {
+  const [show, setShow] = useState(false);
+   const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
-    <div className="mb-2 sticky-top" style={{overflow:'hidden'}}>
-         <Sidebar>
-     <div style={{backgroundColor:'#2F3645',padding:'4rem',color:'#fff'}}>
-     <Nav>
-            <NavItem>
-                <img src='images/hi.jpeg' className='w-75 rounded-pill ms-4' alt='profile'/>
-            </NavItem>
-            <NavItem>
-                <h4 style={{color:'orangered'}}>Adeola sheriff</h4>
-            </NavItem>
-            <NavItem>
-                <p>Fullstack Developer</p>
-            </NavItem>
-            <NavItem>
-              <hr/>
-             <div className='d-flex bg-success p-2 text-white bg-opacity-50 gap-2'>
+<div className='sticky-top bg-white'>
+<div className=' '>
+      <Button variant="warning" className="d-lg-none d-md-none" onClick={handleShow}>
+        <Point/>
+      </Button>
+      <Offcanvas show={show} onHide={handleClose} responsive="md">
+        <Offcanvas.Header closeButton>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <div  className='' style={{marginLeft:'3.3rem', marginTop:'3px'}}>
+            <div>
+          <img src='images/hi.jpeg' className='rounded first-img' alt='profile'/>
+          <h4 style={{color:'orangered'}}>Adeola sheriff</h4>
+          <h6>Fullstack Developer</h6>
+          <div className='d-flex bg-opacity-50 mt-4 mb-4 gap-2'>
               <h6>Lagos</h6>
               <h6>Nigeria</h6>
-             </div>
-             <hr/>
-            </NavItem>
-            <NavItem>
-                
-                    <div className='d-flex gap-2'>
-                        <Check/>
-                     <p>HTML</p>
-                    </div>  
-                   
-                 <div> </div>
-                <div></div>
-                <div></div>
-            </NavItem>
-          </Nav>
-   
-     </div>
-    </Sidebar>
-    </div>
+           </div>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>HTML</p>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>CSS</p>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>Material UI</p>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>Javascript</p>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>React.js</p>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>React bootstrap</p>
+         </div>
+
+          <div className='d-flex gap-2 pb-5'style={{marginBottom:'3rem',marginTop:'.7rem'}}>
+             <Checkk/>
+             <p>AOS</p>
+         </div>
+          </div>
+        </Offcanvas.Body>
+
+        <div className='bg-danger p-2' style={{marginTop:'10%'}}> 
+            <div className='hii gap-4'>
+               <a href="r" className='ms-2'><Instagram/> </a>
+                 <a href="r" className='me'><Git/></a>
+                 <a href="r" className='me'><Linkedin/></a>
+                 <a href="r" className='g' style={{marginLeft:'6%'}}> <Net/> </a>
+            </div>
+        </div>
+      </Offcanvas>
+         </div>
+  
+</div>
   );
 }
 
-export default SidebarLinear;
-
-
-
-
-    // <div id='sidebar' className='sticky-top' style={{overflow:'hidden'}}>
-    //     <div style={{background:'#2c2c38'}} className='text-white my-5 ms-2 rounded p-5 shadow '>
-    //          <div className='ms-5 container'>
-    //          <img src="images/hi.jpeg" alt="profie" className=' rounded' width={'40%'}  />
-    //          <h5 className='text-white my-4'>Adeola sheriff</h5>
-    //          <p>Front-end Developer</p>
-    //          </div>
-    //          <hr />
-
-    //           <div className='d-flex'>
-    //              <h6>Location</h6>
-    //              <h6 className='ms-auto'>Lagos , Nigeria</h6>
-    //              </div>
-    //              <hr />
-
-    //                <div className='d-flex gap-2'>
-    //                 <Check/>
-    //                 <p>Html</p>
-    //                   </div>
-
-    //           <div className='d-flex gap-2'>
-    //               <Check/>
-    //               <p>CSS</p>
-    //         </div>
-
-    //           <div className='d-flex gap-2'>
-    //               <Check/>
-    //               <p>bootstrap</p>
-    //           </div>
-
-    //              <div className='d-flex gap-2'>
-    //                <Check/>
-    //                <p>Tailwind css</p>
-    //           </div>
-          
-    //           <div className='d-flex gap-2'>
-    //               <Check/>
-    //               <p>Javascript</p>
-    //           </div>
-
-    //           <div className='d-flex gap-2'>
-    //               <Check/>
-    //               <p>React.js</p>
-    //           </div>  
-                   
-    //                <hr /> 
-                  
-                  
-    //            </div>
-    //            <div className='ms-2 d-flex py-2' style={{ background:'#45474B', gap:'3rem'}}>
-    //                     <a href="https://www.linkedin.com/feed?trk=p_mwlite_profile_self-primary_nav"> <Linkedin/> </a>
-    //                     <a href="https://www.instagram.com/adeola.sheriff/"> <Instagram/></a>
-    //                     <a href="https://github.com/Adeolasheriff?tab=repositories"> <Git/></a>
-    //                     <a href="08097204764"> <Whatsapp/></a>
-    //                     <a href="https://app.netlify.com/teams/adeolasheriff3/sites"> <Net/> </a>
-              
-    //              </div>
-                    
-    //              </div>
+export default Sidebar;

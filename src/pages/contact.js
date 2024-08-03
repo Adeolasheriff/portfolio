@@ -1,42 +1,52 @@
-// import { Sidebar,Nav,NavItem,NavLink,  } from "@asphalt-react/sidebar";
-// import { Check } from '../icons/icons';
-  
-//   const SidebarLinear = () => {
-//     return (
-//       <div className="my-2 me-4 p-2">
-//         <Sidebar >
-//           <div className='rounded' style={{background:"#2F3645",padding:"5rem",color:"#ffffff"}}>
-//             <Nav>
-//             <NavItem>
-//                 <img src='images/Jamespics.PNG' className='w-50 rounded-pill ms-4' alt='profile'/>
-//             </NavItem>
-//             <NavItem>
-//                 <h4 className='text-danger'>Ogbonna James</h4>
-//             </NavItem>
-//             <NavItem>
-//                 <p>Fullstack Developer</p>
-//             </NavItem>
-//             <NavItem>
-//               <hr/>
-//              <div className='d-flex bg-success p-2 text-white bg-opacity-50'>
-//                 <h6>Location:</h6>
-//                 <p className='ms-auto'>Lagos, Nigeria</p>
-//              </div>
-//              <hr/>
-//             </NavItem>
-//             <NavItem>
-//                 <div className='d-flex gap-2'>
-//                     <div className='text-warning'><Check/></div>
-//                     <p>HTML, CSS, JavaScript</p>
-//                 </div>
-//                 <div></div>
-//                 <div></div>
-//                 <div></div>
-//             </NavItem>
-//           </Nav>
-//           </div>
-//         </Sidebar>
-//         </div>   
-//   );
-// };
-// export default SidebarLinear;
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
+export default function Contact() {
+
+  useEffect(()=>{
+     Aos.init({duration:1000,delay:50});
+  },[])
+  return (
+     <div>
+      <div className='mb-5' data-aos = 'fade-up'>
+      <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem similique voluptate liber
+         <br /> o ad nostrum, voluptas elibr
+        gendi, temporibus distinctio, tempora inventore vitae. Molestias, voluptatum nu
+         <br />
+         quam eius exercitationem eaque omnis fuga nostrum.</h1>
+          
+            {/* <img src="images/hi.jpeg" alt="" width={'70%'} /> */}
+     </div>
+
+     <div className='' data-aos = 'zoom-in' style={{marginTop:"260px"}}>
+      <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem similique voluptate liber
+         <br /> o ad nostrum, voluptas elibr
+        gendi, temporibus distinctio, tempora inventore vitae. Molestias, voluptatum nu
+         <br />
+         quam eius exercitationem eaque omnis fuga nostrum.</h1>
+          
+            {/* <img src="images/hi.jpeg" alt="" width={'70%'} /> */}
+     </div>
+     <div className='' data-aos = 'zoom-out' style={{marginTop:"260px"}}>
+      <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem similique voluptate liber
+         <br /> o ad nostrum, voluptas elibr
+        gendi, temporibus distinctio, tempora inventore vitae. Molestias, voluptatum nu
+         <br />
+         quam eius exercitationem eaque omnis fuga nostrum.</h1>
+          
+            {/* <img src="images/hi.jpeg" alt="" width={'70%'} /> */}
+     </div>
+     <div className='' data-aos = 'zoom-in' style={{marginTop:"260px"}}>
+      <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem similique voluptate liber
+         <br /> o ad nostrum, voluptas elibr
+        gendi, temporibus distinctio, tempora inventore vitae. Molestias, voluptatum nu
+         <br />
+         quam eius exercitationem eaque omnis fuga nostrum.</h1>
+          
+            {/* <img src="images/hi.jpeg" alt="" width={'70%'} /> */}
+     </div>
+     
+     </div>
+  )
+}

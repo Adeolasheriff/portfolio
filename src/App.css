@@ -1,65 +1,45 @@
-.image {
-display: block;
-width: 100%;
-height: auto;
+.do{
+  row-gap:4rem;
+
+}
+.don{
+  column-gap: 3rem;
+}
+body{
+overflow-x: hidden;
+}
+.me{
+  margin-left: 10%;
 }
 
+.first-img{
+  width: 6rem;
+  margin-left: -10%;
+}
 
 .overlay {
   position: absolute; 
   bottom: 0; 
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
-  width: 100%;
+  width: 95%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 20px;
   padding: 20px;
   text-align: center;
+  margin-top: 10rem;
 }
-
-.containerr:hover .overlay {
-    opacity: 1;
+.container {
+  position: relative;
 }
-
-.containerr {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
-}
-
-.nav-option {
-display: flex;
-align-items: center;
-padding: 0 20px;
-gap: 20px;
-width: 210px;
+.container:hover .overlay {
+  opacity: 1;
 
 }
 
-.nav-option:hover{
-  background-color: white;
-  color: black;
-}
-
-.sidebar-container{
-  background-color: rgba(0, 0, 0, 0.554);
-  color: white;
-  width: 210px;
-  height: calc(100vh - 60px);
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-.sidebar-container::-webkit-scrollbar{
-  display: none;
-}
-
-.v{
-  background-color: aqua;
-}
-.heyy{
-  background-image: url('../public/images/2.jpeg');
-  background-size: cover;
-   
+.imm{
+  height: 24rem;
+  width: 100%;
 }
