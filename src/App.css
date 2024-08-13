@@ -34,12 +34,12 @@ overflow-x: hidden;
 .container {
   position: relative;
 }
+
 .container:hover .overlay {
   opacity: 1;
-
 }
-
 .imm{
   height: 24rem;
   width: 100%;
 }
+

@@ -4,6 +4,7 @@ import Header from '../components/header'
 import SidebarLinear from '../components/home/sidebar'
 import Works from './work'
 import Portfolio from '../components/portfolio/portfolio'
+// import Contact from './contact'
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
                 <Aboutme/>
                  <Portfolio/>
                  <Works/>
+                 {/* <Contact/> */}
              </div>
        </div>
          

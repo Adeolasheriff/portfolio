@@ -1,34 +1,40 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 export default function Aboutme() {
+  const [text] = useTypewriter({
+    words: ['Full stack web developer', 'I build web applications'],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 20,
+  })
   return (
     <div className='me-4 rounded '>
-            <img src="images/2.jpeg" alt="cityy"  style={{height:"500px", width:'100%'}}/>
-         <div className='ms-5 hi' style={{marginTop:'-21rem', marginBottom:'13rem'}}>
-         <div className='d-flex' style={{opacity:"100%"}}>
+      <img src="images/2.jpeg" alt="cityy" className='other-img' />
+      <div className='ms-5 hi' style={{ marginTop: '-21rem', marginBottom: '13rem' }}>
+        <div className='d-flex' style={{ opacity: "100%" }}>
           <div>
-            <h1 className='text-black'>Discover my Amazing<br/> Art Space!</h1>
             <div>
-              <h3 className='text-white mt-2'>
-                <span className='text-warning'>&lt;code&gt;</span> 
-                  I build web applications
-                <span className='text-warning'>&lt;code&gt;</span>
-              </h3>
+              <h1 className='text-white'>Discover my Amazing<br /> Art Space!</h1>
+              <span className='text-warning'>&lt;code&gt;</span>
+              <span style={{ fontWeight: 'bold', color: 'white', fontSize: "20px" }}>
+                {text}
+              </span>
+              <span style={{ color: 'darkcyan' }}><Cursor cursorStyle='!!' /></span>
+              <span className='text-warning'>&lt;code&gt;</span>
             </div>
-            <button className='btn btn-warning mt-4 p-3'>Contact me</button>
+            <Link to='#contact' className='btn btn-warning mt-4 p-3'>Contact me</Link>
           </div>
-          <img src='images/hii.png' alt='Pic' className='w-25 mx-auto rounded-pill second-img' style={{marginTop:'-9rem'}}/>
+          <img src='images/hii.png' alt='Pic' className='w-25 mx-auto rounded-pill second-img' style={{ marginTop: '-9rem' }} />
         </div>
-         </div>
- </div>
+      </div>
+    </div>
 
-     
- 
+
+
   )
 }
-
-
-
 
 
 

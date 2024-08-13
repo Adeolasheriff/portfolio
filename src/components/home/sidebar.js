@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Checkk,Git,Instagram,Linkedin,Net,Point} from '../../icons/icons';
+import { Checkk,Dot,Git,Instagram,Linkedin, Whatsapp} from '../../icons/icons';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,10 +12,10 @@ function Sidebar() {
   const handleShow = () => setShow(true);
 
   return (
-<div className='sticky-top bg-white'>
+<div className='sticky-top bg-white mt-2'>
 <div className=' '>
       <Button variant="warning" className="d-lg-none d-md-none" onClick={handleShow}>
-        <Point/>
+        <Dot/>
       </Button>
       <Offcanvas show={show} onHide={handleClose} responsive="md">
         <Offcanvas.Header closeButton>
@@ -25,6 +26,7 @@ function Sidebar() {
           <img src='images/hi.jpeg' className='rounded first-img' alt='profile'/>
           <h4 style={{color:'orangered'}}>Adeola sheriff</h4>
           <h6>Fullstack Developer</h6>
+          <hr />
           <div className='d-flex bg-opacity-50 mt-4 mb-4 gap-2'>
               <h6>Lagos</h6>
               <h6>Nigeria</h6>
@@ -44,7 +46,7 @@ function Sidebar() {
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
              <p>Material UI</p>
-         </div>
+         </div> 
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
@@ -61,21 +63,32 @@ function Sidebar() {
              <p>React bootstrap</p>
          </div>
 
-          <div className='d-flex gap-2 pb-5'style={{marginBottom:'3rem',marginTop:'.7rem'}}>
+          <div className='d-flex gap-2 pb-5'style={{marginBottom:'1.8rem'}}>
              <Checkk/>
              <p>AOS</p>
          </div>
           </div>
         </Offcanvas.Body>
-
-        <div className='bg-danger p-2' style={{marginTop:'10%'}}> 
-            <div className='hii gap-4'>
-               <a href="r" className='ms-2'><Instagram/> </a>
-                 <a href="r" className='me'><Git/></a>
-                 <a href="r" className='me'><Linkedin/></a>
-                 <a href="r" className='g' style={{marginLeft:'6%'}}> <Net/> </a>
-            </div>
-        </div>
+         <hr /> 
+          <div className="bg-warning p-2">
+             <div className="row row-gap-3">
+             <div className="col ms-2">
+               <Link to={'https://www.instagram.com/adeola.sheriff/'} target='blank'> <Instagram/></Link>
+             </div>
+             <div className="col">
+                 <Link to={'https://www.linkedin.com/in/adeola-sheriff-734971296/'} target='blank'><Linkedin/> </Link>
+             </div>
+             <div className="col">
+               <Link to={'https://github.com/Adeolasheriff?tab=repositories'} target='blank'><Git/></Link>
+             </div>
+             <div className="col">
+             <Link to={'https://wa.me/2348097204764'} target='blank'><Whatsapp/></Link> 
+             </div>
+             </div>
+          </div>
+           
+        
+       
       </Offcanvas>
          </div>
   
