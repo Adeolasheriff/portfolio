@@ -10,10 +10,11 @@ export default function Aboutme() {
   })
   return (
     <div className='me-4 rounded heyy'>
-      <img src="images/2.jpeg" alt="cityy" className='other-img' />
-      <div className='ms-5 hi' style={{ marginTop: '-21rem', marginBottom: '13rem' }}>
-        <div className='d-flex' style={{ opacity: "100%" }}>
-          <div>
+      {/* <img src="images/2.jpeg" alt="cityy" className='other-img' /> */}
+      <div className='other-img'>
+      <div className='ms- hi' style={{ marginTop: '', marginBottom: '' }}>
+        <div className='d-flex' style={{ opacity: "100%",  }}>
+          <div style={{marginTop:'14rem', marginLeft:"3rem"}}>
             <div>
               <h1 className='text-white'>Discover my Amazing<br /> Art Space!</h1>
               <span className='text-warning'>&lt;code&gt;</span>
@@ -25,8 +26,9 @@ export default function Aboutme() {
             </div>
             <a href="#contact" className='btn btn-warning mt-4 p-3'> contact me</a>
           </div>
-          <img src='images/hii.png' alt='Pic' className='w-25 mx-auto rounded-pill second-img' style={{ marginTop: '-9rem' }} />
+          <img src='images/hii.png' alt='Pic' className='w-25 mx-auto rounded-pill second-img' style={{ marginTop: '6rem' ,marginLeft:"4rem"}} />
         </div>
+      </div>
       </div>
     </div>
 

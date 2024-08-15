@@ -16,10 +16,14 @@ overflow-x: hidden;
   width: 6rem;
   margin-left: -10%;
 }
-.other-img{
-  overflow-y: hidden;
-  width: 66rem;
+.other-img {
+overflow-wrap: break-word;
+background-image: url('../public/images/2.jpeg');
+background-position: center;
+background-size: cover;
+height: 80vh;
 }
+
 
 .overlay {
   position: absolute; 
