@@ -4,6 +4,7 @@ import Home from './pages/home';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './pages/contact';
+import Certication from './pages/certication';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         </Route>
         <Route path='portfolio' element={<Portfolio/>}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='Certication' element={<Certication/>} />
        </Routes>
       </BrowserRouter>
     

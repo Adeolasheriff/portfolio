@@ -16,6 +16,9 @@ overflow-x: hidden;
   width: 6rem;
   margin-left: -10%;
 }
+.other-img{
+  overflow-y: hidden;
+}
 
 .overlay {
   position: absolute; 
@@ -42,4 +45,3 @@ overflow-x: hidden;
   height: 24rem;
   width: 100%;
 }
-
