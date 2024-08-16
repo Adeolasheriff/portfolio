@@ -17,7 +17,9 @@ export default function Works(props) {
                <img src="images/first.JPG" alt="pocs" className='imm' />
                <div class="overlay">
                   <h3>My first website</h3>
-                  <Link to={'https://aquamarine-valkyrie-fcc36d.netlify.app/group'} target='blank'>here</Link>
+                  {/* <Link to={'https://aquamarine-valkyrie-fcc36d.netlify.app/group'} target='blank'>here</Link> */}
+                  <a href="https://aquamarine-valkyrie-fcc36d.netlify.app/group" target='blank'>here</a>
+                
                </div>
 
             </div>
@@ -28,7 +30,8 @@ export default function Works(props) {
                <img src="images/form.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>Created my first form using basic html and css</h3>
-                  <Link to={'https://firstformm.netlify.app'} target='blank'>here</Link>
+                  {/* <Link to={'https://firstformm.netlify.app'} target='blank'>here</Link> */}
+                  <a href="https://firstformm.netlify.app" target='blank'> here</a>
                </div>
             </div>
          </div>
