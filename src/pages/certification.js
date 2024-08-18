@@ -3,7 +3,7 @@ import Sidebar from '../components/home/sidebar'
 import Header from '../components/header'
 import { Link } from 'react-router-dom'
 
-export default function certication() {
+export default function Certification() {
   return (
        <div className='row'>
         <div className="col-md-3 col-sm-12 col-lg-3" >
