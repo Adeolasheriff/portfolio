@@ -4,7 +4,7 @@ import Home from './pages/home';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './pages/contact';
-import Certification from './pages/certification';
+import Index from './pages';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         </Route>
         <Route path='portfolio' element={<Portfolio/>}/>
         <Route path='contact' element={<Contact/>}/>
-        <Route path='Certification' element={<Certification/>} />
+        <Route path='Index' element={<Index/>} />
        </Routes>
       </BrowserRouter>
     
