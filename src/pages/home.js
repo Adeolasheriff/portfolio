@@ -5,8 +5,6 @@ import SidebarLinear from '../components/home/sidebar'
 import Works from './work'
 import Portfolio from '../components/portfolio/portfolio'
 import Contact from './contact'
-import Cerf from '../components/home/cerf'
-
 
 
 
@@ -23,7 +21,6 @@ export default function Home() {
                  <Portfolio/>
                  <Works/>
                  <Contact/>
-                 <Cerf/>
              </div>
        </div>
          
