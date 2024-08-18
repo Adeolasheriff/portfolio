@@ -7,8 +7,6 @@
 }
 body{
 overflow-x: hidden;
-margin: 100%;
-overflow-x: hidden;
 }
 
 .me{
@@ -52,3 +50,4 @@ height: 80vh;
   height: 24rem;
   width: 100%;
 }
+

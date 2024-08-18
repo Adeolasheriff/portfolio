@@ -17,11 +17,8 @@ export default function Works(props) {
                <img src="images/first.JPG" alt="pocs" className='imm' />
                <div class="overlay">
                   <h3>My first website</h3>
-                  {/* <Link to={'https://aquamarine-valkyrie-fcc36d.netlify.app/group'} target='blank'>here</Link> */}
                   <a href="https://aquamarine-valkyrie-fcc36d.netlify.app/group" target='blank'>here</a>
-                
                </div>
-
             </div>
 
          </div>
@@ -30,8 +27,8 @@ export default function Works(props) {
                <img src="images/form.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>Created my first form using basic html and css</h3>
-                  {/* <Link to={'https://firstformm.netlify.app'} target='blank'>here</Link> */}
-                  <a href="https://firstformm.netlify.app" target='blank'> here</a>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://firstformm.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -41,7 +38,7 @@ export default function Works(props) {
                <img src="images/2.JPEG" alt="" className='imm' />
                <div class="overlay">
                   <h3>I learnt how to collaborate</h3>
-                  <Link to={''}>here</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}} to={''}>Click here</Link>
                </div>
             </div>
          </div>
@@ -51,7 +48,8 @@ export default function Works(props) {
                <img src="images/boostrap.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>first web using Css bootstrap</h3>
-                  <Link to={'https://adeolasheriffweb.netlify.app'} target='blank'>here</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://adeolasheriffweb.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -60,8 +58,9 @@ export default function Works(props) {
             <div className='container'>
                <img src="images/secondd.PNG" alt="" className='imm' />
                <div class="overlay">
-                  <h3>website crea</h3>
-                  <Link to={'https://shevvvy.netlify.app'} target='blank'>More practice with html css boostrap</Link>
+                  <h3>Practices</h3>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://shevvvy.netlify.app'} target='blank'>More practice with html css boostrap</Link>
                </div>
             </div>
          </div>
@@ -71,7 +70,8 @@ export default function Works(props) {
                <img src="images/clac.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>Calculator app using Javascript</h3>
-                  <Link to={'https://adeolasheriffcalculator.netlify.app'} target='blank'>here</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://adeolasheriffcalculator.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -81,8 +81,10 @@ export default function Works(props) {
                <img src="images/travel.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>Quiz application</h3>
-                  <Link to={'https://github.com/Adeolasheriff/quizapp'} target='blank'>github view</Link> <br />
-                  <Link to={'https://beautiful-raindrop-70da86.netlify.app'} target='blank'>browswer view</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://github.com/Adeolasheriff/quizapp'} target='blank'>github view</Link> <br />
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://beautiful-raindrop-70da86.netlify.app'} target='blank'>browswer view</Link>
                </div>
             </div>
          </div>
@@ -92,7 +94,8 @@ export default function Works(props) {
                <img src="images/clock.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>responsive analog clock</h3>
-                  <Link to={'https://analogclockkk.netlify.app'} target='blank'>Analog clock</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://analogclockkk.netlify.app'} target='blank'>Analog clock</Link>
                </div>
             </div>
          </div>
@@ -102,7 +105,8 @@ export default function Works(props) {
                <img src="images/first.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>first react basic project</h3>
-                  <Link to={'https://subtle-daifuku-34861b.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://subtle-daifuku-34861b.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -121,7 +125,8 @@ export default function Works(props) {
                <img src="images/travel.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>React travel app</h3>
-                  <Link to={'https://travel-reservationnn.netlify.app'} target='blank'>Click</Link>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://travel-reservationnn.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>

@@ -10,7 +10,6 @@ export default function Aboutme() {
   })
   return (
     <div className='me-4 rounded heyy'>
-      {/* <img src="images/2.jpeg" alt="cityy" className='other-img' /> */}
       <div className='other-img'>
       <div>
         <div className='d-flex' style={{ opacity: "100%",  }}>
