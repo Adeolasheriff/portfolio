@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../components/home/sidebar'
 import Header from '../components/header'
-import Cerf from '../components/portfolio/cerf'
+import Cerf from './cerf'
 
 export default function certication() {
   return (
