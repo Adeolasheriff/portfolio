@@ -9,18 +9,18 @@ import Certification from './pages/certification';
 
 function App() {
   return (
-   <div> 
-     <BrowserRouter>
-       <Routes>
-        <Route index element={<Home/>}>
-        </Route>
-        <Route path='portfolio' element={<Portfolio/>}/>
-        <Route path='contact' element={<Contact/>}/>
-        <Route path='certification' element={<Certification/>} />
-       </Routes>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />}>
+          </Route>
+          <Route path='portfolio' element={<Portfolio />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='certification' element={<Certification />} />
+        </Routes>
       </BrowserRouter>
-    
-   </div>
+
+    </div>
   );
 }
 

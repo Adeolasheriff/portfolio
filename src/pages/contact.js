@@ -66,13 +66,13 @@ export default function Contact() {
                   </div>
                </div>
             </div>
-               <h2 className='text-white mb-5 '>Get in touch</h2>
+            <h2 className='text-white mb-5 '>Get in touch</h2>
             <form className='mt-5'>
-                  <input type="text" className='form-control mb-3' placeholder="name" />
-                  <input type="email" className='form-control mb-3' placeholder="email" required />
-                    <textarea placeholder='message'className='form-control mb-3' rows="3"></textarea>
-                    {contextHolder}
-                    <Button className='bg-success p-4' onClick={success}>Success</Button>
+               <input type="text" className='form-control mb-3' placeholder="name" />
+               <input type="email" className='form-control mb-3' placeholder="email" required />
+               <textarea placeholder='message' className='form-control mb-3' rows="3"></textarea>
+               {contextHolder}
+               <Button className='bg-success p-4' onClick={success}>Success</Button>
             </form>
          </div>
       </div>

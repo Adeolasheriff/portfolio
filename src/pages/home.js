@@ -7,7 +7,6 @@ import Portfolio from '../components/portfolio/portfolio'
 import Contact from './contact'
 
 
-
 export default function Home() {
   return (
     <div className='row do' style={{background:'#2c2c38'} }>

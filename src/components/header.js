@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 function Header() {
   return (
@@ -14,7 +14,8 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="certification">Certification</Nav.Link>
+              {/* <Nav.Link href="certification">Certification</Nav.Link> */}
+              <Link to='/certification'>cert`</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
