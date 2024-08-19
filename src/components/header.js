@@ -14,8 +14,8 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-              {/* <Nav.Link href="certification">Certification</Nav.Link> */}
-              <Link to='/certification'>cert`</Link>
+      
+              <Link className='fs-6 text-dark' style={{textDecoration:'none',marginTop:'0.5rem',marginLeft:'0.5rem'}} to='/certification'>Certification</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
