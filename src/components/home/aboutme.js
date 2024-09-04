@@ -25,14 +25,11 @@ export default function Aboutme() {
             </div>
             <a href="#contact" className='btn btn-warning mt-4 p-3'> contact me</a>
           </div>
-          <img src='images/hii.png' alt='Pic' className='w-25 mx-auto rounded-pill second-img' style={{ marginTop: '6rem' ,marginLeft:"4rem"}} />
+          <img src='images/hii.png' alt='Pic' className='mx-auto w-25 rounded-pill' style={{ marginTop: '6rem' ,marginLeft:"4rem"}}  />
         </div>
       </div>
       </div>
     </div>
-
-
-
   )
 }
 

@@ -131,6 +131,17 @@ export default function Works(props) {
             </div>
          </div>
 
+         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
+            <div className='container'>
+               <img src="images/travel.PNG" alt="" className='imm' />
+               <div class="overlay">
+                  <h3>React Dashboard app</h3>
+                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
+                   to={'https://adeolasheriffgrapapps.netlify.app'} target='blank'>Click here</Link>
+               </div>
+            </div>
+         </div>
+
       </div>
    )
 }
