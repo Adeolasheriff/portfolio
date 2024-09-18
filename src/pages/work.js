@@ -24,7 +24,7 @@ export default function Works(props) {
          </div>
          <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-out'>
             <div className='container'>
-               <img src="images/form.png" alt="" className='imm' />
+               <img src="images/24.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>Created my first form using basic html and css</h3>
                   <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
@@ -78,7 +78,7 @@ export default function Works(props) {
 
          <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
             <div className='container'>
-               <img src="images/travel.PNG" alt="" className='imm' />
+               <img src="images/23.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>Quiz application</h3>
                   <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
@@ -122,7 +122,7 @@ export default function Works(props) {
 
          <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
             <div className='container'>
-               <img src="images/travel.PNG" alt="" className='imm' />
+               <img src="images/21.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>React travel app</h3>
                   <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
@@ -133,7 +133,7 @@ export default function Works(props) {
 
          <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
             <div className='container'>
-               <img src="images/travel.PNG" alt="" className='imm' />
+               <img src="images/22.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>React Dashboard app</h3>
                   <Link className='text-warning fs-4' style={{fontStyle:"italic"}}

@@ -12,7 +12,7 @@ function Sidebar() {
   const handleShow = () => setShow(true);
 
   return (
-<div className='sticky-top bg-white mt-2'>
+<div className='sticky-top bg-warning mt-2'>
 <div className=' '>
       <Button variant="warning" className="d-lg-none d-md-none" onClick={handleShow}>
         <Dot/>
@@ -70,7 +70,7 @@ function Sidebar() {
           </div>
         </Offcanvas.Body>
          <hr /> 
-          <div className="bg-warning p-2">
+          <div className="bg-danger p-2">
              <div className="row row-gap-3">
              <div className="col ms-2">
                <Link to={'https://www.instagram.com/adeola.sheriff/'} target='blank'> <Instagram/></Link>
