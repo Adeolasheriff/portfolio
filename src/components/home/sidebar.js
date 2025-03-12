@@ -24,8 +24,8 @@ function Sidebar() {
           <div  className='' style={{marginLeft:'3.3rem', marginTop:'3px'}}>
             <div>
           <img src='images/hi.jpeg' className='rounded first-img' alt='profile'/>
-          <h4 style={{color:'orangered'}}>Adeola sheriff</h4>
-          <h6>Fullstack Developer</h6>
+          <h4 className='mt-2'>Adeola sheriff</h4>
+          <h6 className='mt-3'>Fullstack Developer</h6>
           <hr />
           <div className='d-flex bg-opacity-50 mt-4 mb-4 gap-2'>
               <h6>Lagos</h6>
@@ -35,23 +35,18 @@ function Sidebar() {
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>HTML</p>
+             <p>HTML, CSS, Javascript</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>CSS</p>
+             <p>Material UI, React Bootstrap</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>Material UI</p>
+             <p>Axios, Ant-Design</p>
          </div> 
-
-          <div className='d-flex gap-2 mb-3'>
-             <Checkk/>
-             <p>Javascript</p>
-         </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
@@ -60,12 +55,25 @@ function Sidebar() {
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>React bootstrap</p>
+             <p>Node.Js</p>
          </div>
 
-          <div className='d-flex gap-2 pb-5'style={{marginBottom:'1.8rem'}}>
+          <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>AOS</p>
+             <p>Express.Js</p>
+         </div>
+
+          <div className='d-flex gap-2 mb-3'>
+             <Checkk/>
+             <p>C-Sharp</p>
+         </div>
+         <div className='d-flex mb-3'>
+             <Checkk/>
+             <p>ADO.NET</p>
+         </div>
+         <div className='d-flex '>
+             <Checkk/>
+             <p>Entity-Framework</p>
          </div>
           </div>
         </Offcanvas.Body>

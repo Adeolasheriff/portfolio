@@ -6,7 +6,7 @@ export default function Cerf() {
     return (
         <div>
             <h2 className='mb-5 mt-5 text-white text-center'>Certifications</h2>
-            <div className="row row-gap-3 bg-danger">
+            <div className="row row-gap-5">
 
                 <div className="col-lg-6 col-sm-12 col-md-12">
                     <div>
@@ -31,6 +31,27 @@ export default function Cerf() {
                         </div>
                     </div>
                 </div>
+
+                <div className="col-lg-6 col-sm-12 col-md-12">
+                    <div className='container'>
+                        <img src="images/ijan.jpeg" alt="" className='imm' />
+                        <div class="overlay">
+                            <h3>I enrolled in and completed the Full Stack Development course
+                                at Ijan Africa Tech School, where I gained valuable skills and earned my certification.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-6 col-sm-12 col-md-12">
+                    <div className='container'>
+                        <img src="images/c-sharp.jpeg" alt="" className='imm' />
+                        <div class="overlay">
+                            <h3>I completed the foundational C# course with Microsoft and earned my certification, strengthening my programming skills.</h3>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     )

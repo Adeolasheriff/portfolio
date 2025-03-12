@@ -27,8 +27,8 @@ export default function Works(props) {
                <img src="images/24.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>Created my first form using basic html and css</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://firstformm.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://firstformm.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -38,7 +38,7 @@ export default function Works(props) {
                <img src="images/2.JPEG" alt="" className='imm' />
                <div class="overlay">
                   <h3>I learnt how to collaborate</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}} to={''}>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }} to={''}>Click here</Link>
                </div>
             </div>
          </div>
@@ -48,8 +48,8 @@ export default function Works(props) {
                <img src="images/boostrap.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>first web using Css bootstrap</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://adeolasheriffweb.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://adeolasheriffweb.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -59,8 +59,8 @@ export default function Works(props) {
                <img src="images/secondd.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>Practices</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://shevvvy.netlify.app'} target='blank'>More practice with html css boostrap</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://shevvvy.netlify.app'} target='blank'>More practice with html css boostrap</Link>
                </div>
             </div>
          </div>
@@ -70,8 +70,8 @@ export default function Works(props) {
                <img src="images/clac.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>Calculator app using Javascript</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://adeolasheriffcalculator.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://adeolasheriffcalculator.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -81,10 +81,10 @@ export default function Works(props) {
                <img src="images/23.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>Quiz application</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://github.com/Adeolasheriff/quizapp'} target='blank'>github view</Link> <br />
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://beautiful-raindrop-70da86.netlify.app'} target='blank'>browswer view</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://github.com/Adeolasheriff/quizapp'} target='blank'>github view</Link> <br />
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://beautiful-raindrop-70da86.netlify.app'} target='blank'>browswer view</Link>
                </div>
             </div>
          </div>
@@ -94,8 +94,8 @@ export default function Works(props) {
                <img src="images/clock.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>responsive analog clock</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://analogclockkk.netlify.app'} target='blank'>Analog clock</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://analogclockkk.netlify.app'} target='blank'>Analog clock</Link>
                </div>
             </div>
          </div>
@@ -105,8 +105,8 @@ export default function Works(props) {
                <img src="images/first.PNG" alt="" className='imm' />
                <div class="overlay">
                   <h3>first react basic project</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://subtle-daifuku-34861b.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://subtle-daifuku-34861b.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -125,8 +125,8 @@ export default function Works(props) {
                <img src="images/21.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>React travel app</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://travel-reservationnn.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://travel-reservationnn.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
@@ -136,12 +136,66 @@ export default function Works(props) {
                <img src="images/22.png" alt="" className='imm' />
                <div class="overlay">
                   <h3>React Dashboard app</h3>
-                  <Link className='text-warning fs-4' style={{fontStyle:"italic"}}
-                   to={'https://adeolasheriffgrapapps.netlify.app'} target='blank'>Click here</Link>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://adeolasheriffgrapapps.netlify.app'} target='blank'>Click here</Link>
                </div>
             </div>
          </div>
 
+         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
+            <div className='container'>
+               <img src="images/intro.png" alt="" className='imm' />
+               <div class="overlay">
+                  <h3>Practical examples on fundamentals of c-sharp</h3>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://github.com/Adeolasheriff/C-sharp-basic-intro/commit/77fd9e402a1d84b10bc32b5beb1dea921f15fdf6'} target='blank'>Github view</Link>
+               </div>
+            </div>
+         </div>
+
+         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
+            <div className='container'>
+               <img src="images/encap.png" alt="" className='imm' />
+               <div class="overlay">
+                  <h3>Practical examples on C-Sharp Data-Strcture </h3>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://github.com/Adeolasheriff/Data-strctrure'} target='blank'>Github View</Link>
+               </div>
+            </div>
+         </div>
+
+         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
+            <div className='container'>
+               <img src="images/encap.png" alt="" className='imm' />
+               <div class="overlay">
+                  <h3>Practical examples on C-Sharp OOP</h3>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://github.com/Adeolasheriff/C-sharp-OOP'} target='blank'>Github View</Link>
+               </div>
+            </div>
+         </div>
+
+         <div className="col-lg-6 col-sm-12 col-md-12 " data-aos='zoom-in'>
+            <div className='container'>
+               <img src="images/interface.png" alt="" className='imm' />
+               <div class="overlay">
+                  <h3>Practical examples on C-Sharp OOP</h3>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://github.com/Adeolasheriff/Abstractions-and-interface'} target='blank'>Github View</Link>
+               </div>
+            </div>
+         </div>
+
+         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
+            <div className='container'>
+               <img src="images/Adonet.png" alt="" className='imm' />
+               <div class="overlay">
+                  <h3>Practical examples using ADO.NEt to perform Crud operations </h3>
+                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
+                     to={'https://github.com/Adeolasheriff/AdoNet/blob/master/AdoNet/Program.cs '} target='blank'>Github View</Link>
+               </div>
+            </div>
+         </div>
       </div>
    )
 }
