@@ -12,7 +12,7 @@ function Sidebar() {
   const handleShow = () => setShow(true);
 
   return (
-<div className='sticky-top bg-warning mt-2'>
+<div className='sticky-top bg-black mt-2'>
 <div className=' '>
       <Button variant="warning" className="d-lg-none d-md-none" onClick={handleShow}>
         <Dot/>
@@ -23,62 +23,67 @@ function Sidebar() {
         <Offcanvas.Body>
           <div  className='' style={{marginLeft:'3.3rem', marginTop:'3px'}}>
             <div>
-          <img src='images/hi.jpeg' className='rounded first-img' alt='profile'/>
-          <h4 className='mt-2'>Adeola sheriff</h4>
-          <h6 className='mt-3'>Fullstack Developer</h6>
+          <img src='images/shevvy.png' className='rounded first-img' alt='profile'/>
+          <h4 className='mt-2 text-warning'>Adeola sheriff</h4>
+          <h6 className='mt-3 text-warning'>Fullstack Developer</h6>
           <hr />
           <div className='d-flex bg-opacity-50 mt-4 mb-4 gap-2'>
-              <h6>Lagos</h6>
-              <h6>Nigeria</h6>
+              <h6 className='text-warning '>Lagos</h6>
+              <h6 className='text-warning'>Nigeria</h6>
            </div>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>HTML, CSS, Javascript</p>
+             <p className='text-warning'>HTML, CSS, Javascript</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>Material UI, React Bootstrap</p>
+             <p className='text-warning'>Material UI, React Bootstrap</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>Axios, Ant-Design</p>
+             <p className='text-warning'>Axios, Ant-Design</p>
          </div> 
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>React.js</p>
+             <p className='text-warning'>React.js</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>Node.Js</p>
+             <p className='text-warning'>Node.Js</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>Express.Js</p>
+             <p className='text-warning'> Express.Js</p>
          </div>
 
           <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>C-Sharp</p>
+             <p className='text-warning'>C-Sharp</p>
          </div>
-         <div className='d-flex mb-3'>
+         <div className='d-flex mb-3 gap-2'>
              <Checkk/>
-             <p>ADO.NET</p>
+             <p className='text-warning'>ADO.NET</p>
          </div>
-         <div className='d-flex '>
+         <div className='d-flex gap-2 mb-3'>
              <Checkk/>
-             <p>Entity-Framework</p>
+             <p className='text-warning'>Entity-Framework</p>
+         </div>
+
+         <div className='d-flex gap-2 '>
+             <Checkk/>
+             <p className='text-warning'>Azure</p>
          </div>
           </div>
         </Offcanvas.Body>
          <hr /> 
-          <div className="bg-danger p-2">
+          <div className="bg-black p-2">
              <div className="row row-gap-3">
              <div className="col ms-2">
                <Link to={'https://www.instagram.com/adeola.sheriff/'} target='blank'> <Instagram/></Link>

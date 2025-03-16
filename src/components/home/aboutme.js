@@ -10,11 +10,11 @@ export default function Aboutme() {
   })
   return (
     <div className='me-4 rounded heyy'>
-      <div className='other-img'>
-      <div>
+      <div className='other-im'>
+      <div className='-mt-32 lg:-mt-1'>
         <div className='d-flex' style={{ opacity: "100%",  }}>
           <div style={{marginTop:'14rem', marginLeft:"3rem"}}>
-            <div>
+            <div className=''>
               <h1 className='text-white'>Discover my Amazing<br /> Art Space!</h1>
               <span className='text-warning'>&lt;code&gt;</span>
               <span style={{ fontWeight: 'bold', color: 'white', fontSize: "20px" }}>
@@ -25,7 +25,7 @@ export default function Aboutme() {
             </div>
             <a href="#contact" className='btn btn-warning mt-4 p-3'> contact me</a>
           </div>
-          <img src='images/hii.png' alt='Pic' className='mx-auto w-25 rounded-pill' style={{ marginTop: '6rem' ,marginLeft:"4rem"}}  />
+          <img src='images/shevvy.png' alt='Pic' className='mx-auto w-25 h-25 rounded md:block hidden' style={{ marginTop: '6rem' ,marginLeft:"4rem"}}  />
         </div>
       </div>
       </div>
