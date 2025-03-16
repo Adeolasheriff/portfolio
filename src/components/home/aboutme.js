@@ -25,7 +25,7 @@ export default function Aboutme() {
             </div>
             <a href="#contact" className='btn btn-warning mt-4 p-3'> contact me</a>
           </div>
-          <img src='images/shevvy.png' alt='Pic' className='mx-auto w-25 h-25 rounded md:block hidden' style={{ marginTop: '6rem' ,marginLeft:"4rem"}}  />
+          <img src='images/shevvy.png' alt='Pic' className='mx-auto w-25 h-25 rounded md:hidden lg:block hidden' style={{ marginTop: '6rem' ,marginLeft:"4rem"}}  />
         </div>
       </div>
       </div>
