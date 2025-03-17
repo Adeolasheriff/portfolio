@@ -51,6 +51,23 @@ export default function Cerf() {
                     </div>
                 </div>
 
+                <div className="col-lg-6 col-sm-12 col-md-12">
+                    <div className='container'>
+                        <img src="images/az.jpeg" alt="" className='imm' />
+                        <div class="overlay">
+                            {/* <h3></h3> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-6 col-sm-12 col-md-12">
+                    <div className='container'>
+                        <img src="images/az1.jpeg" alt="" className='imm' />
+                        <div class="overlay">
+                            {/* <h3></h3> */}
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>

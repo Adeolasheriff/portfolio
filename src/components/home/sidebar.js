@@ -23,9 +23,9 @@ function Sidebar() {
         <Offcanvas.Body>
           <div  className='' style={{marginLeft:'3.3rem', marginTop:'3px'}}>
             <div>
-          <img src='images/shevvy.png' className='rounded first-img' alt='profile'/>
-          <h4 className='mt-2 text-warning'>Adeola sheriff</h4>
-          <h6 className='mt-3 text-warning'>Fullstack Developer</h6>
+          <img src='images/shevvy.png' className='rounded first-img  mb-4' alt='profile'/>
+          <h4 className='mt-2 text-warning font-bold'>Adeola Sheriff</h4>
+          <h6 className='mt-3 text-warning font-extrabold'>Fullstack Developer</h6>
           <hr />
           <div className='d-flex bg-opacity-50 mt-4 mb-4 gap-2'>
               <h6 className='text-warning '>Lagos</h6>

@@ -23,7 +23,7 @@ export default function Aboutme() {
               <span style={{ color: 'darkcyan' }}><Cursor cursorStyle='!!' /></span>
               <span className='text-warning'>&lt;code&gt;</span>
             </div>
-            <a href="#contact" className='btn btn-warning mt-4 p-3'> contact me</a>
+            <a href="#contact" className='btn btn-warning mt-4 p-3'> Contact me</a>
           </div>
           <img src='images/shevvy.png' alt='Pic' className='mx-auto w-25 h-25 rounded md:hidden lg:block hidden' style={{ marginTop: '6rem' ,marginLeft:"4rem"}}  />
         </div>

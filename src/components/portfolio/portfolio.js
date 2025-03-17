@@ -15,11 +15,11 @@ export default function Portfolio() {
             <p className='fst-italic fs-6'>
               As a full-stack developer, I am skilled in combining front-end and back-end technologies to deliver complete, scalable web applications. I specialize in building efficient, secure, and high-performance web apps that provide seamless user experiences.
               <br />
-              My backend expertise includes **C#** with **.NET Core** and **Entity Framework**, allowing me to build robust server-side applications and manage databases efficiently. Additionally, I work with **Dapper** for lightweight, high-performance database queries when needed, and **ADO.NET** for low-level database access, giving me fine-grained control over my database interactions.
+              My backend expertise includes C# with .NET Core and Entity Framework, allowing me to build robust server-side applications and manage databases efficiently. Additionally, I work with Dapper for lightweight, high-performance database queries when needed, and ADO.NET for low-level database access, giving me fine-grained control over my database interactions.
               <br />
               I focus on developing RESTful APIs, handling authentication, and ensuring the smooth integration between the client and server. I’m proficient in building secure, scalable, and maintainable backend systems using the latest technologies.
               <br />
-              On the front-end, I leverage frameworks like **React**, along with modern styling techniques like **Tailwind CSS**, **Bootstrap**, and **Material UI**, to create responsive, user-friendly interfaces.
+              On the front-end, I leverage frameworks like React, along with modern styling techniques like Tailwind CSS, Bootstrap, and Material UI, to create responsive, user-friendly interfaces.
               <br />
               I’m always looking for ways to grow my skills and currently exploring more advanced features in web development to create even better, more efficient solutions.
             </p>
@@ -33,7 +33,7 @@ export default function Portfolio() {
             <p className='fst-italic fs-6'>
               I build responsive and intuitive front-end applications using modern HTML, CSS, and JavaScript. My focus is on creating seamless and user-friendly experiences.
               <br />
-              I'm highly skilled in working with modern JavaScript frameworks like React, Next.js, and UI libraries such as Bootstrap, Tailwind CSS, Material UI, Axios, and Ant Design, among others.
+              I'm highly skilled in working with modern JavaScript frameworks like React and UI libraries such as Bootstrap, Tailwind CSS, Material UI, Axios, and Ant Design, among others.
             </p>
           </div>
         </div>
@@ -44,11 +44,11 @@ export default function Portfolio() {
             <p className='fst-italic fs-6'>
               I specialize in building robust, scalable, and secure server-side applications that power seamless user experiences. Solving complex problems with elegant code is my passion.
               <br />
-              My backend expertise spans **Node.js** with **Express** for high-performance applications, as well as **C#** with **ASP.NET Core** for enterprise-level web services.
+              My backend expertise spans Node.js with Express for high-performance applications, as well as C# with ASP.NET Core for enterprise-level web services.
               <br />
-              I'm highly proficient in working with **Microsoft SQL Server** through **Entity Framework** to design and manage relational databases with seamless integration into C# applications.
+              I'm highly proficient in working with Microsoft SQL Server through Entity Framework to design and manage relational databases with seamless integration into C# applications.
               <br />
-              Additionally, I have extensive experience working with **MongoDB** for **Express.js** applications, utilizing its NoSQL capabilities to build highly scalable and flexible data models for modern web applications.
+              Additionally, I have extensive experience working with MongoDB for Express.js applications, utilizing its NoSQL capabilities to build highly scalable and flexible data models for modern web applications.
               <br />
               I excel at developing RESTful APIs, optimizing database queries, and ensuring data security while delivering solutions that scale as your business grows.
             </p>
