@@ -141,61 +141,6 @@ export default function Works(props) {
                </div>
             </div>
          </div>
-
-         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
-            <div className='container'>
-               <img src="images/intro.png" alt="" className='imm' />
-               <div class="overlay">
-                  <h3>Practical examples on fundamentals of c-sharp</h3>
-                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
-                     to={'https://github.com/Adeolasheriff/C-sharp-basic-intro/commit/77fd9e402a1d84b10bc32b5beb1dea921f15fdf6'} target='blank'>Github view</Link>
-               </div>
-            </div>
-         </div>
-
-         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
-            <div className='container'>
-               <img src="images/encap.png" alt="" className='imm' />
-               <div class="overlay">
-                  <h3>Practical examples on C-Sharp Data-Strcture </h3>
-                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
-                     to={'https://github.com/Adeolasheriff/Data-strctrure'} target='blank'>Github View</Link>
-               </div>
-            </div>
-         </div>
-
-         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
-            <div className='container'>
-               <img src="images/encap.png" alt="" className='imm' />
-               <div class="overlay">
-                  <h3>Practical examples on C-Sharp OOP</h3>
-                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
-                     to={'https://github.com/Adeolasheriff/C-sharp-OOP'} target='blank'>Github View</Link>
-               </div>
-            </div>
-         </div>
-
-         <div className="col-lg-6 col-sm-12 col-md-12 " data-aos='zoom-in'>
-            <div className='container'>
-               <img src="images/interface.png" alt="" className='imm' />
-               <div class="overlay">
-                  <h3>Practical examples on C-Sharp OOP</h3>
-                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
-                     to={'https://github.com/Adeolasheriff/Abstractions-and-interface'} target='blank'>Github View</Link>
-               </div>
-            </div>
-         </div>
-
-         <div className="col-lg-6 col-sm-12 col-md-12" data-aos='zoom-in'>
-            <div className='container'>
-               <img src="images/Adonet.png" alt="" className='imm' />
-               <div class="overlay">
-                  <h3>Practical examples using ADO.NEt to perform Crud operations </h3>
-                  <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
-                     to={'https://github.com/Adeolasheriff/AdoNet/blob/master/AdoNet/Program.cs '} target='blank'>Github View</Link>
-               </div>
-            </div>
-         </div>
       </div>
    )
 }
