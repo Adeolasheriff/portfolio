@@ -13,7 +13,6 @@ export default function Cerf() {
                         <div className='container'>
                             <img src="images/digital.PNG" alt="" className='imm' />
                             <div class="overlay">
-                                <h3>I enroll for a digital marketing skills</h3>
                                 <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
                                     to={'https://skillshop.exceedlms.com/student/award/rPgcUdBYWXbG3xNKhQFJ795f'} target='blank'>Click here</Link>
                             </div>
@@ -25,7 +24,6 @@ export default function Cerf() {
                     <div className='container'>
                         <img src="images/udemy.PNG" alt="" className='imm' />
                         <div class="overlay">
-                            <h3>i enrolled for a advance css courses on udemy and i build several project with the knowlede acquired</h3>
                             <Link className='text-warning fs-4' style={{ fontStyle: "italic" }}
                                 to={'https://www.udemy.com/certificate/UC-90f91039-ea5a-4b99-8afa-456c008f7e9b/'} target='blank'>Click here</Link>
                         </div>
@@ -34,37 +32,16 @@ export default function Cerf() {
 
                 <div className="col-lg-6 col-sm-12 col-md-12">
                     <div className='container'>
-                        <img src="images/ijan.jpeg" alt="" className='imm' />
-                        <div class="overlay">
-                            <h3>I enrolled in and completed the Full Stack Development course
-                                at Ijan Africa Tech School, where I gained valuable skills and earned my certification.</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-12 col-md-12">
-                    <div className='container'>
-                        <img src="images/c-sharp.jpeg" alt="" className='imm' />
-                        <div class="overlay">
-                            <h3>I completed the foundational C# course with Microsoft and earned my certification, strengthening my programming skills.</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-12 col-md-12">
-                    <div className='container'>
-                        <img src="images/az.jpeg" alt="" className='imm' />
-                        <div class="overlay">
-                            {/* <h3></h3> */}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-12 col-md-12">
-                    <div className='container'>
                         <img src="images/az1.jpeg" alt="" className='imm' />
                         <div class="overlay">
-                            {/* <h3></h3> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-6 col-sm-12 col-md-12">
+                    <div className='container'>
+                        <img src="images/azure.png" alt="" className='imm' />
+                        <div class="overlay">
                         </div>
                     </div>
                 </div>
